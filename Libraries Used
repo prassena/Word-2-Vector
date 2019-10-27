@@ -26,8 +26,11 @@ from nltk.stem import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 
 """from gensim.models import Word2Vec
-from gensim.models import KeyedVectors"""
-import pickle
+from gensim.models import KeyedVectors
+import pickle"""
+
+from sklearn.decomposition import TruncatedSVD
+import xgboost as xgb
 
 from tqdm import tqdm
 import os
